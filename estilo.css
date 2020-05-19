@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    
+}
+
+body{
+    background-color: black;
+}
+
+.top-menu{
+    /* height: 100vh; */
+    /* position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+   
+    text-align: center; */
+}
+
+.top-menu .caixa1{
+    padding: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    
+}
+
+img{
+    margin-left: 23px;
+}
+
+.menu ul li{
+    display: inline-block;
+    margin-right: 23px;
+    color: white;
+    font-family: candara;
+    font-weight: bold;
+
+}
+
+li:hover{
+    transition: all.5s;
+    border: 10px solid transparent;
+    border-radius: 200px;
+}
+
+/* fim do header */
+
+/* inicio da sessão   1*/
+
+.section1{
+    height: 100vh;
+}
+
+.texto{
+    
+    font-size: 56px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: candara;
+}
+
+
+.texto{
+    padding: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.caixa2{
+    padding: 23px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+#foto-hudna{
+    border-radius: 220px;
+}
+
+#foto-hudna:hover{
+    transition: all.5s;
+    border: 30px solid whitesmoke;
+    border-radius: 200px;
+}
+
+p{
+    color: white;
+    font-size: 34px;
+    font-family: candara;
+    display: inline-block;
+    margin-left: 23px;
+
+}
+
+#foto-hudna{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hudna{
+    color: whitesmoke;
+    font-family: 'manrope', sans-serif;
+}
+
+.hudna:hover{
+    transition: all.5s;
+    border: 10px solid transparent;
+    border-radius: 200px;
+}
+
+.section2{
+    height: 100vh;
+    background-color: white;
+}
+
+#foto-seguranca{
+    width: 498px;
+}
+
+.caixa3{
+    padding: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.texto2{
+    font-family: candara;
+    font-size: 55px;
+}
+
+.section3{
+    height: 30vh;
+    background-color: gray;
+}
+
+#logo-redes{
+    width: 28px;
+}
+
+
+
